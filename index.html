@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Stylée</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Section de la calculatrice -->
+    <div class="calculator">
+        
+        <!-- Bouton pour changer de thème -->
+        <div class="theme-switch">
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="theme-text">Changer de thème</span>
+        </div>
+
+        <!-- Affichage des expressions et résultats -->
+        <div class="display">
+            <span id="expression"> </span>
+            <span id="result"> </span>
+        </div>
+
+        <!-- Boutons de la calculatrice -->
+        <div class="buttons">
+            <button>(</button>
+            <button>)</button>
+            <button>%</button>
+            <button>AC</button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>-</button>
+
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>+</button>
+        </div>
+
+    </div>
+
+    <!-- Script JS pour la logique de la calculatrice -->
+    <script src="index.js"></script>
+
+</body>
+</html>
